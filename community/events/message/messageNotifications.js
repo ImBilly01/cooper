@@ -54,7 +54,7 @@ export default class MessageNotifications {
             }, 0);
             
             // TODO: Order by most messages.
-            let notificationString = `**${totalCount} latest messages!**\n\n`;
+            let notificationString = `**Activity Velocity. ? (+?%)/n/n${totalCount} latest activity!**\n\n`;
             
             notificationChannelIDs.map(channelID => {
                 // Access the notification data for this specific channel.
